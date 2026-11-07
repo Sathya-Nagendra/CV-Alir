@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "Scheduled (previous day)": {
+      "commandName": "Project",
+      "environmentVariables": { "DOTNET_ENVIRONMENT": "Development" }
+    },
+    "Manual period": {
+      "commandName": "Project",
+      "commandLineArgs": "--Feed:PeriodBegin 2026-09-01 --Feed:PeriodEnd 2026-09-07",
+      "environmentVariables": { "DOTNET_ENVIRONMENT": "Development" }
+    }
+  }
+}

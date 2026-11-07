@@ -1,0 +1,155 @@
+{
+  "RECORDS": {
+    "EFHR": {
+      "Version": "CF01",
+      "DateCreated": "20260925",
+      "TimeCreated": "100743",
+      "ReportingPeriodBeginDate": "20250630",
+      "ReportingPeriodEndDate": "20260922"
+    },
+    "POLICY": [
+      {
+        "POLR": {
+          "PolicyNumber": "CRA9999999-00",
+          "AlternatePolicyNumber": "",
+          "CarrierName": "Blue Ridge Indemnity Insurance",
+          "IssuerAMBestCompanyNumber": "89031",
+          "NaicCode": "40754",
+          "LineOfBusiness": "CA",
+          "RiskClassCode": "",
+          "PolicyClassCode": "AU",
+          "PolicyInceptionDate": "20250701",
+          "TermBeginDate": "20250701",
+          "TermExpirationDate": "20260701",
+          "EffectiveDateOfChange": "20250701",
+          "CancellationDate": "00000000",
+          "TransactionType": "NB",
+          "ISOPolicyFormNumber": "",
+          "PolicyAddress": {
+            "Street1": "100 Example Street",
+            "Street2": "",
+            "City": "Testville",
+            "State": "NY",
+            "Zip": "10001",
+            "Country": "US"
+          },
+          "PolicyTelephones": [
+            {
+              "Type": "B",
+              "AreaCode": "",
+              "Number": ""
+            }
+          ],
+          "PolicyPremiumAmount": "024961100",
+          "PremiumPayPlanCode": "",
+          "MethodOfPayCode": "OT",
+          "TransactionProcessingDate": "20250630",
+          "ProducerAgentInfo": {
+            "ProducerName": "Example Agency",
+            "ProducerNumber": "19",
+            "ProducerEmail": "",
+            "ProducerAddress": {
+              "Street1": "100 Example Street",
+              "Street2": "Suite 1",
+              "City": "Testville",
+              "State": "NY",
+              "Zip": "10001",
+              "Country": "US"
+            },
+            "ProducerPhone": {
+              "AreaCode": "555",
+              "Number": "0100000"
+            }
+          },
+          "ClientTransactionID": "12345",
+          "GroupId": "",
+          "EffectiveUntilCancelledIndicator": "",
+          "PriorNaicCode": "",
+          "LightspeedFlag": "N",
+          "LightspeedIDNumber": ""
+        },
+        "ASSET": [
+          {
+            "AssetType": "V",
+            "VehicleDetails": {
+              "VIN": "1FTFW1E50NFA00000",
+              "VehicleMake": "Ford",
+              "VehicleModel": "Transit",
+              "VehicleYear": "2022",
+              "VehicleTypeCode": "800",
+              "VehicleRegistrationStateCode": "NY",
+              "VehicleInceptionDate": "00000000",
+              "VehicleCertificationDate": "00000000",
+              "BusinessUse": "N",
+              "ReplacedVehicleOriginalEffectiveDate": "00000000",
+              "NumberInFleet": "0000",
+              "GarageTownId": "000",
+              "PremiumTownId": "000",
+              "BinderNumber": "0000000000000000",
+              "UnpaidPremiumAmount": "00000",
+              "OutOfStateInsuranceIndicator": "N",
+              "GrayFlag": "N",
+              "AntiTheftDeviceCode": "",
+              "LeasedVehicleIndicator": "",
+              "PreviousPolicyNumber": "",
+              "InvalidVinIndicator": "",
+              "DeductibleAmount1": "00001000",
+              "DeductibleAmount2": "00001000",
+              "ISOAutomobileClassCode": "000648",
+              "VehicleRegistrant": {
+                "EntityType": "B",
+                "FederalID": "",
+                "StateID": "CRA9999999-00"
+              },
+              "GaragingAddress": {
+                "Street1": "100 Example Street",
+                "City": "Testville",
+                "State": "NY",
+                "Zip": "10001",
+                "Country": "US"
+              },
+              "RegistrationAddress": {
+                "Street1": "100 Example Street",
+                "Street2": "",
+                "City": "Testville",
+                "State": "NY",
+                "Zip": "10001",
+                "Country": "US"
+              },
+              "PolicyCoverageLimits": [
+                {
+                  "CoverageTypeCode": "CBSL",
+                  "IndividualLimit": "00000000",
+                  "OccurrenceLimit": "00000000",
+                  "CombinedSingleLimit": "01000000"
+                },
+                {
+                  "CoverageTypeCode": "MPAY",
+                  "IndividualLimit": "00005000",
+                  "OccurrenceLimit": "00000000",
+                  "CombinedSingleLimit": "00000000"
+                }
+              ]
+            }
+          }
+        ],
+        "SUBJ": [
+          {
+            "SubjectType": "B",
+            "RelationToPolicyHolderCode": "PP",
+            "RelationToInsuredCode": "",
+            "Name": {
+              "BusinessName": "Example Church Inc"
+            },
+            "Id": {
+              "FederalId": "",
+              "StateID": "CRA9999999-00"
+            },
+            "Details": {},
+            "OptOutFlag": ""
+          }
+        ]
+      }
+    ]
+  }
+}
